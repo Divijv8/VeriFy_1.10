@@ -1,0 +1,93 @@
+# =============================
+# 🚫 Python cache & system files
+# =============================
+__pycache__/
+*.py[cod]
+*$py.class
+.DS_Store
+Thumbs.db
+
+# =============================
+# 🧠 Virtual environment folders
+# =============================
+venv/
+env/
+.venv/
+ENV/
+env.bak/
+venv.bak/
+
+# =============================
+# 🧩 Jupyter Notebook checkpoints
+# =============================
+.ipynb_checkpoints/
+.notebooks/
+*.ipynb_checkpoints
+
+# =============================
+# 🔒 Environment & credentials
+# =============================
+.env
+.env.*
+*.key
+*.pem
+*.p12
+
+# =============================
+# 💾 Model & large data files
+# =============================
+*.keras
+*.h5
+*.hdf5
+*.ckpt
+*.pb
+*.tflite
+*.pt
+*.onnx
+
+# =============================
+# 📊 Datasets & generated files
+# =============================
+data/*.csv
+data/*.xlsx
+data/*.json
+!data/README.md
+
+# =============================
+# 📈 Logs & temporary outputs
+# =============================
+logs/
+*.log
+*.out
+*.txt
+*.tmp
+
+# =============================
+# 💻 VS Code / IDE configs
+# =============================
+.vscode/
+.idea/
+*.code-workspace
+
+# =============================
+# ⚙️ Streamlit / Gradio cache
+# =============================
+.streamlit/
+.gradio/
+
+# =============================
+# 📦 Python packaging files
+# =============================
+build/
+dist/
+*.egg-info/
+*.egg
+MANIFEST
+
+# =============================
+# 🧹 Misc
+# =============================
+*.zip
+*.tar
+*.tar.gz
+*.bak
